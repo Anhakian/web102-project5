@@ -1,0 +1,19 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+  
+.card {
+    background-color: #6fb2ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+  
+.card h5 {
+    font-weight: 600;
+    color: #ffffff;
+}
