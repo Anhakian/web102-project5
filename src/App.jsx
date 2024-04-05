@@ -1,7 +1,8 @@
-import { useState , useEffect } from 'react';
-import './App.css';
-import WeatherList from './components/WeatherList';
-import StatsCard from './components/StatsCard';
+import { useState , useEffect } from "react";
+import "./App.css";
+import WeatherList from "./components/WeatherList";
+import StatsCard from "./components/StatsCard";
+import NavigationBar from "./components/NavigationBar";
 
 const App = () => {
   const API_KEY = import.meta.env.VITE_API_ACCESS_KEY;
@@ -36,6 +37,7 @@ const App = () => {
 
   return (
     <div>
+      <NavigationBar />
       {list && <StatsCard list={list} />}
       <input
         type="text"

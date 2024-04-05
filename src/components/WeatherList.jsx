@@ -1,4 +1,5 @@
 import './WeatherList.css';
+import { Link } from "react-router-dom";
 
 const WeatherList = ({list}) => {
   if (!list || !list.data) {
@@ -15,6 +16,7 @@ const WeatherList = ({list}) => {
             <th>Highest Temperature</th>
             <th>Average Temperature</th>
             <th>Weather</th>
+            <th></th>
           </tr>
         </thead>
 
@@ -26,6 +28,13 @@ const WeatherList = ({list}) => {
               <td>{weatherData.high_temp}°C</td>
               <td>{weatherData.temp}°C</td>
               <td>{weatherData.weather.description}</td>
+              <td>
+                <button>
+                  <Link to={`/dayDetail/${weatherData.datetime}`}>
+                    More Info
+                  </Link>
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>
