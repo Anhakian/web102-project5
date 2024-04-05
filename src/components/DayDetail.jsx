@@ -26,7 +26,7 @@ const DayDetail = () => {
           <h2>{fullDetails.datetime}</h2>
           <p>Weather: {fullDetails.weather.description}</p>
           <p>Average Temperature: {fullDetails.temp}°C</p>
-          <p>Humidity: {fullDetails.rh}</p>
+          <p>Humidity: {fullDetails.rh}%</p>
           <p>Cloud Coverage: {fullDetails.clouds}%</p>
           <p>Wind Direction: {fullDetails.wind_cdir_full}</p>
           <p>Wind Speed: {fullDetails.wind_spd}</p>

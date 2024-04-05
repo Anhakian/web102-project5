@@ -12,3 +12,7 @@ body {
 button:hover {
     background-color: #d7ebff;
 }
+
+input, label, button {
+    margin-bottom: 10px;
+}
