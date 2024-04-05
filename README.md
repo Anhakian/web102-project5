@@ -1,8 +1,8 @@
-# Web Development Project 5 - *Weather App*
+# Web Development Project 6 - _Weather App_
 
 Submitted by: **Anh Nguyen**
 
-This web app shows Ho Chi Minh city's weather forecast.
+This web app **shows the data of weather forecast for Ho Chi Minh City, and has data charts to show the changes in the city's temperature, humidity, cloud coverage, and wind speed**
 
 Time spent: **5** hours spent in total
 
@@ -10,31 +10,29 @@ Time spent: **5** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The list displays a list of data fetched using an API call**
-- [x] **Data uses the useEffect React hook and async/await syntax**
-- [x] **The app dashboard includes at least three summary statistics about the data such as**
-  - [x] *Lowest Temperature*
-  - [x] *Highest Temperature*
-  - [x] *Average Temperature*
-- [x] **A search bar allows the user to search for an item in the fetched data**
-- [x] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [x] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [x] **Clicking on an item in the list view displays more details about it**
+- [x] **Clicking on an item has a direct, unique link to that item's detail view page**
 
 The following **optional** features are implemented:
 
-- [x] Multiple filters can be applied simultaneously
-- [x] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [x] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories: https://imgur.com/7CD3PST
+Here's a walkthrough of implemented user stories:
+<img src='https://imgur.com/a/vuZxVF4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+In case there are errors with the link: https://imgur.com/a/vuZxVF4
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LiceCAP 
+
+GIF created with LICEcap
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
