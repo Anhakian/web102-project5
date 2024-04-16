@@ -25,9 +25,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-<img src='https://imgur.com/a/vuZxVF4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-In case there are errors with the link: https://imgur.com/a/vuZxVF4
+Here's a walkthrough of implemented user stories: https://imgur.com/a/sxd2zmz
 
 <!-- Replace this with whatever GIF tool you used! -->
 
